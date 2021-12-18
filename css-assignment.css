@@ -1,0 +1,139 @@
+.box1{
+    border: 2px solid black;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right,red,green,yellow);
+    text-decoration: underline;
+}
+.box2{
+    border: 2px solid red;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: cadetblue;
+}
+.parent1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid black;
+    background-color: cornflowerblue;
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+    border-radius: 10px;
+}
+.box{
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+.box3{
+    background-color: cyan;
+}
+.box4{
+    background-color: cyan;
+}
+.box5{
+    background-color: cyan;
+}
+.box6{
+    background-color: cyan;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.box7{
+    width: 100%;
+    background-image: radial-gradient(ellipse,yellow,orange,red);
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.parent2{
+    display: flex;
+    border: 2px solid black;
+    width: 100%;
+    background-image: radial-gradient(ellipse,blue,green);
+    justify-content: center;
+    margin-bottom: 20px;
+    /* align-items: center; */
+}
+.parent2-1{
+    border: 2px solid red;
+    background-color: yellow;
+    margin: 100px;
+    text-align: center;
+ color: chocolate;
+ margin-bottom: 100px;
+ text-decoration: underline;
+ border-radius: 10px;
+}
+.box9{
+    text-align: center;
+    border: 2px solid red;
+    color: white;
+    background-color:red ;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.parent3{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.can{
+    border: 2px solid black;
+    color: white;
+    padding: 0px;
+     
+}
+.can1{
+    background-color: green;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 400px;
+}
+.can2{
+    background-color:cyan;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 390px;
+}
+.can3{
+    background-color:blue;
+    width: 390px;
+}
+.can4{
+    background-color: chocolate;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    height: 100px;
+}
+.can5{
+    background-color: black;
+    color: white;
+    grid-column: 4/5;
+    grid-row: 1/3;
+    width: 100px;
+    padding-left: 15px;
+}
+.can6{
+    text-align: center;
+    background-color: cyan;
+    color: black;
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li span {
+    position: relative;
+    left: -10px;
+  }
+
+
